@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+
+// Main Styling
+
+body, html {
+  margin: 0;
+  height: 100%;
+  color: grey;
+}
+
+
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  // background-color: #c8dbf4;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Bitter', serif;
+  color: grey;
+}
+
+.sections-layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin: 0px 60px 0px 60px;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+// Nav Bar
+
+ul.nav-bar li {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul.nav-bar li:hover {
+  color: grey;
+}
+
+img {
+  height: 100px;
+}
+
+// Title
+
+.title-section {
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px;
+  background-image: url('../assets/print-one.png');
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.title-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1:first-child {
+
+    font-size: 120px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  h1:last-child {
+    text-align: Center;
+    font-size: 32px;
+  }
+}
+
+h1.name-title {
+  font-family: 'Bitter', serif;
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+// About Text
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c8dbf4;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.about-info {
+  width: 900px;
+  display: flex;
+}
+
+.about-intro {
+  text-align: center;
+}
+
+.about-text {
+  width: 70%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.about-pic {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    border-radius: 100%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    // margin-top: 30px;
+  }
+}
+
+
+// 
+
+.skills-section {
+  display: flex;
+  align-items: Center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  // margin-bottom: 10px;
+  padding-bottom: 40px;
+  background-image: url('../assets/print-one.png');
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-icons {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  i {
+    margin: 20px;
+    font-size: 50px;
+    color: grey;
+  }
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: grey;
+    display: none;
+  }
+}
+
+.icon-item:hover {
+  p {
+    display: block;
+  }
+}
+
+//
+
+.project-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c8dbf4;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.project-divs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+.project-div {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 40px;
+  display: flex;
+  border: grey 1px solid;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+}
+
+// Experience Section
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  // padding-bottom: 40px;
+  background-image: url('../assets/print-one.png');
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.experience-divs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.experience-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+// Contact Section
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c8dbf4;
+  width: 100%;
+  height: 100%;
+}
+
+ul.contact-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+ul.contact-list li {
+  list-style: none;
+  margin: 0;
+}
+
+div.contact-section > ul > div > a > i {
+  // margin: 20px;
+  margin: 10px;
+      font-size: 30px;
+      color: grey;
+}
+
+.fa-icon {
+  font-size: 30px;
+  color: grey;
+  margin-left: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  p {
+    margin: 0;
+    color: grey;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+
+  ul.nav-bar li {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .title-text {
+    h1 {
+      text-align: center;
+    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-info {
+    width: 100%;
+    text-align: center;
+    .about-text {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .about-pic {
+    display: none;
+  }
+
+  .project-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .experience-divs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills-icons {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    i {
+      margin: 20px;
+      font-size: 50px;
+      color: grey;
+    }
+  }
+}
+
