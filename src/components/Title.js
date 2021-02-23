@@ -4,12 +4,13 @@ import React from 'react'
 function Title() {
   return (
     <div className="title-section">
-    {/* <img src={logo} alt="logo"></img> */}
-    <div className="title-text">
-    <h1 className="name-title">Elsie Down</h1>
-    <h1>· Junior Software Engineer ·</h1>
-    </div>
-    </div>
+      {/* <img src={logo} alt="logo"></img> */}
+      <div className="title-text">
+        <h1>Elsie Down</h1>
+        <h1>· Junior Software Engineer · London ·</h1>
+        <a href="#about"><i class="fas fa-chevron-down pulse"></i></a>
+      </div>
+    </div >
   )
 }
 

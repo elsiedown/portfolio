@@ -1,0 +1,48 @@
+// 
+
+.skills-section {
+  display: flex;
+  align-items: Center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  // margin-bottom: 10px;
+  padding-bottom: 40px;
+  background-image: url('../assets/print-one.png');
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-icons {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  i {
+    margin: 20px;
+    font-size: 50px;
+    color: grey;
+  }
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: grey;
+    display: none;
+  }
+}
+
+.icon-item:hover {
+  p {
+    display: block;
+  }
+}
