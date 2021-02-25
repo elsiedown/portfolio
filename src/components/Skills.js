@@ -2,8 +2,8 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className="skills-section">
-      <h1 id="skills">skills.</h1>
+    <div className="skills-section" id="skills">
+      <h1>skills.</h1>
       <div className="skills-icons">
         <div className="icon-item"><i class="devicon-javascript-plain"></i><p>JavaScript</p></div>
         <div className="icon-item"><i class="devicon-react-original"></i><p>React.js</p></div>

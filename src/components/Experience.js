@@ -7,8 +7,8 @@ import vovi from '../assets/vovi-logo.png'
 function Experience() {
   return (
 
-    <div className="experience-section">
-      <h1 id="experience" >experience.</h1>
+    <div className="experience-section" id="experience">
+      <h1 >experience.</h1>
       <div className="experience-divs">
         <div className="experience-div">
           <div className="experience-div-header">
@@ -17,11 +17,12 @@ function Experience() {
             {/* <p>London, UK</p> */}
           </div>
           <div className="experience-div-text" >
-            <p className="experience-title">Software Engineering Immersive Course</p>
+            <p className="experience-title">SEI Course</p>
             <p>Nov 2020 - Feb 2021</p>
             <ul>
-              <li>12-week immersive course that helped me further my programming knowledge (especially in JavaScript, React.js, HTML and CSS) and where I learnt to build full-stack apps. Involving daily stand-ups, online-lessons, labs, pair-coding and group and individual projects.</li>
-              <li>For full project breakdown please view the projects section above.</li>
+              <li>Developed proficiency in building full-stack apps: 12-week software engineering immersive course that furthered my programming knowledge (especially JavaScript, React.js, HTML and CSS).</li> 
+              <li>Demonstrated team working capibility - worked in pairs and groups during labs and projects.</li> 
+              <li>Delivered consistently strong results in time-pressured environment: built four fully-functioning and presentable projects all within timeframes of a week or two days.</li>
             </ul>
           </div>
         </div>
@@ -34,8 +35,9 @@ function Experience() {
             <p className="experience-title">Account Manager</p>
             <p>Jul 2020 - Aug 2020</p>
             <ul>
-              <li>Developed social media content for different clients, working alongside graphic designers to come up with innovative and interesting ideas. </li>
+              <li>Created social media content for different clients, working alongside graphic designers to come up with innovative and interesting ideas. </li>
               <li>Co-devised marketing strategies: personally developed a strategy for a school design competition and coinciding video teaser campaign.</li>
+              <li>Developed an interest and appreciation for the process and impact of building beautifully crafted websites.</li>
             </ul>
           </div>
         </div>
@@ -45,14 +47,13 @@ function Experience() {
             <h3>Bristol University</h3>
           </div>
           <div className="experience-div-text" >
-            <p className="experience-title">French and Spanish Joint BA</p>
+            <p className="experience-title">BA French and Spanish (1st Class Hons)</p>
             <p>Sept 2015 - Jul 2019</p>
             <ul>
-              <li>1st Class Honours</li>
-              <li>Fourth-year dissertation written about the role of digital art in culture and politics.</li>
-              <li>Year Abroad in Paris and Medellin.</li>
-              <li>Marketing placement in Medellin at Pangea Vivienda - a student accommodation start-up.</li>
-              <li>Marketing placement in Paris at Savills France.</li>
+              {/* <li>1st Class Honours</li> */}
+              <li>Developed advanced proficiency in language and communication skills, with fluency in French and Spanish.</li>
+              <li>Achieved high 1st class honours in my fourth-year dissertation, written about the role of digital art in politics and culture.</li>
+              <li>Budding international marketing proficiency: developed skills of digital marketing (social media & website design) and client relationships in year abroad placements at Savills France in Paris, France and Pangea Vivienda in Medellin, Colombia</li>
             </ul>
           </div>
         </div>

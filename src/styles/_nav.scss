@@ -1,5 +1,17 @@
 // Nav Bar
 
+ul.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 45px;
+  z-index: 9999;
+}
 
 ul.nav-bar li {
   display: inline;

@@ -6,9 +6,12 @@
   justify-content: center;
   flex-direction: column;
   background-color: #c8dbf4;
+  
   width: 100%;
   height: 100%;
   padding-bottom: 60px;
+  color: grey;
+  // color: #707070
 }
 
 .about-info {
@@ -17,8 +20,9 @@
 }
 
 .about-intro {
-  text-align: center;
- font-size: 20px;
+text-align: center;
+ font-size: 22px;
+ font-weight: 400;
 }
 
 .about-text {
@@ -26,8 +30,9 @@
   margin-left: 20px;
   // text-align: center;
   p {
-    font-weight: 900;
+    font-weight: 400;
     color: grey;
+    // color: #707070;
   }
 }
 
@@ -36,7 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
   img {
     border-radius: 100%;
     border: 2px white solid;
@@ -47,6 +51,12 @@
   }
 }
 
+h1.interests-header {
+    margin: 0;
+    margin-top: 10px;
+    text-shadow: none;
+}
+
 .interests {
   display: flex;
   align-items: center;
@@ -54,6 +64,7 @@
   width: 1000px;
   height: 150px;
   margin-top: 80px;
+  font-weight: 400;
 }
 
 .interests-div {
@@ -67,6 +78,7 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  // font-weight: 400;
   // border: 1px grey solid;
   img {
     background-color: transparent;
@@ -94,6 +106,7 @@
   margin-top: 20px;
   p {
     margin: 0;
+    // color: #707070;
   }
   p a {
     color: grey;

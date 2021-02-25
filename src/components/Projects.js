@@ -9,8 +9,8 @@ import littlemermaid from '../assets/littlemermaid.png'
 
 function Projects() {
   return (
-    <div className="project-section">
-      <h1 id="projects">projects.</h1>
+    <div className="project-section" id="projects">
+      <h1>projects.</h1>
       <div className="project-divs">
         <div className="project-div">
           <div className="project-div-inner">

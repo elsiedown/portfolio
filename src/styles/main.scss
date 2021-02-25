@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200;300&display=swap');
+
 
 @import '_nav.scss';
 @import '_title.scss';
@@ -30,13 +36,16 @@ body, html {
   justify-content: center;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   margin: 0 auto;
   // background-color: #c8dbf4;
 }
 h1 {
   font-size: 40px;
-  font-family: 'Bitter', serif;
+  font-family: 'Raleway', sans-serif;
+  
   color: grey;
+  // text-shadow: 2px 1px white;
 }
 
 .sections-layout{
@@ -56,6 +65,10 @@ a {
 
 a:visited {
   color: black;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -82,7 +95,7 @@ a:visited {
       h1:first-child {
         font-size: 80px;
         margin: 0;
-        margin-top: 40px;
+        margin-top: 90px;
         text-align: center;
       }
     h1 {
@@ -98,6 +111,16 @@ a:visited {
     justify-content: center;
   }
 
+  .wordCarousel {
+    div {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin: 0;
+    }
+  }
+
   .about-section {
     display: flex;
     flex-direction: column;
@@ -105,12 +128,16 @@ a:visited {
   }
   .about-info {
     width: 100%;
-    text-align: center;
+    // text-align: center;
     flex-direction: column;
     .about-text {
       width: 100%;
-      text-align: center;
+      // text-align: center;
       margin: 0;
+      p {
+        margin: 5px;
+        margin-top: 10px;
+      }
     }
   }
 
@@ -119,6 +146,7 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
 
@@ -151,6 +179,18 @@ a:visited {
     justify-content: center;
     flex-direction: column;
   }
+
+  .experience-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .experience-div:first-child, experience-div:last-child {
+    height: 100%;
+  }
+
+
 
   .skills-icons {
     display: flex;
