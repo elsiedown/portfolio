@@ -19,6 +19,14 @@ ul.nav-bar li {
   margin: 10px;
 }
 
+li.home-button {
+  font-family: 'Bungee Outline', cursive;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+}
+
+
 ul.nav-bar li:hover {
   color: grey;
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 function Title() {
   return (
-    <div className="title-section">
+    <div className="title-section" id="title">
       {/* <img src={logo} alt="logo"></img> */}
       <div className="title-text">
         <h1>Elsie Down</h1>
@@ -12,7 +12,7 @@ function Title() {
         <div>
           <ul className="flip4">
             <li>· General Assembly Graduate ·</li>
-            <li>· 1 years Brand & Marketing Experience ·</li>
+            <li>· 1 year Brand & Marketing Experience ·</li>
             <li>· Fluent in Spanish & French ·</li>
             <li>· Based in London ·</li>
           </ul>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c38ae2e9.chunk.css",
-    "main.js": "/static/js/main.7018709b.chunk.js",
-    "main.js.map": "/static/js/main.7018709b.chunk.js.map",
+    "main.css": "/static/css/main.7a777d11.chunk.css",
+    "main.js": "/static/js/main.f8603725.chunk.js",
+    "main.js.map": "/static/js/main.f8603725.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/css/2.e4b89e5a.chunk.css": "/static/css/2.e4b89e5a.chunk.css",
-    "static/js/2.2afa2b3c.chunk.js": "/static/js/2.2afa2b3c.chunk.js",
-    "static/js/2.2afa2b3c.chunk.js.map": "/static/js/2.2afa2b3c.chunk.js.map",
+    "static/js/2.72ddeaf1.chunk.js": "/static/js/2.72ddeaf1.chunk.js",
+    "static/js/2.72ddeaf1.chunk.js.map": "/static/js/2.72ddeaf1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e4b89e5a.chunk.css.map": "/static/css/2.e4b89e5a.chunk.css.map",
-    "static/css/main.c38ae2e9.chunk.css.map": "/static/css/main.c38ae2e9.chunk.css.map",
-    "static/js/2.2afa2b3c.chunk.js.LICENSE.txt": "/static/js/2.2afa2b3c.chunk.js.LICENSE.txt",
+    "static/css/main.7a777d11.chunk.css.map": "/static/css/main.7a777d11.chunk.css.map",
+    "static/js/2.72ddeaf1.chunk.js.LICENSE.txt": "/static/js/2.72ddeaf1.chunk.js.LICENSE.txt",
     "static/media/bristol.4c6f913e.png": "/static/media/bristol.4c6f913e.png",
     "static/media/cityspace.40a17e7e.png": "/static/media/cityspace.40a17e7e.png",
     "static/media/elsiepic.9663a8d0.jpeg": "/static/media/elsiepic.9663a8d0.jpeg",
@@ -19,6 +19,7 @@
     "static/media/generalassembly.6e9efafd.png": "/static/media/generalassembly.6e9efafd.png",
     "static/media/globe2.143f4179.png": "/static/media/globe2.143f4179.png",
     "static/media/littlemermaid.66c6b586.png": "/static/media/littlemermaid.66c6b586.png",
+    "static/media/marina.a0a45692.png": "/static/media/marina.a0a45692.png",
     "static/media/main.scss": "/static/media/print-one.1a769172.png",
     "static/media/sharebnb.27a49581.png": "/static/media/sharebnb.27a49581.png",
     "static/media/whatsinthefridge2.5589294f.png": "/static/media/whatsinthefridge2.5589294f.png"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/css/2.e4b89e5a.chunk.css",
-    "static/js/2.2afa2b3c.chunk.js",
-    "static/css/main.c38ae2e9.chunk.css",
-    "static/js/main.7018709b.chunk.js"
+    "static/js/2.72ddeaf1.chunk.js",
+    "static/css/main.7a777d11.chunk.css",
+    "static/js/main.f8603725.chunk.js"
   ]
 }
