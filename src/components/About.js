@@ -43,7 +43,7 @@ function About() {
           <img src={lotus} alt="logo" className="profile-image"></img>
           </div>
           <div className="interests-text">
-          <p>I try to practice yoga every day.</p>
+          <p>I like to relax by doing yoga.</p>
           </div>
         </div>
 

@@ -17,6 +17,7 @@ function Skills() {
         <div className="icon-item"><i class="devicon-django-plain"></i><p>Django</p></div>
         <div className="icon-item"><i class="devicon-yarn-plain"></i><p>Yarn</p></div>
         <div className="icon-item"><i class="devicon-postgresql-plain"></i><p>PostgreSQL</p></div>
+        <div className="icon-item"><i class="devicon-vuejs-plain"></i><p>Vue.js</p></div>
         <div className="icon-item"><i class="devicon-github-original"></i><p>Github</p></div>
         <div className="icon-item"><i class="devicon-git-plain"></i><p>Git</p></div>
         <div className="icon-item"><i class="devicon-visualstudio-plain"></i><p>VS Code</p></div>
