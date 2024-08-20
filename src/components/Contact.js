@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact-section" id="contact">
       <h1>contact.</h1>
       <ul className="contact-list">
-        <p>Please feel free to check out my Github or get in touch for more information!</p>
+        <p>Please feel free to check out my Github or get in touch for more information.</p>
         {/* <li><a href="mailto:elspethdown@gmail.com">elspethdown@gmail.com</a></li> */}
         <div className="contact-item">
           <a href="https://github.com/elsiedown"><i class="devicon-github-original"></i></a>
