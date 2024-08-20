@@ -10,14 +10,14 @@ function About() {
   return (
     <div className="about-section" id="about">
       <h1>about.</h1>
-      <p className="about-intro">Hello! I'm Elsie, a Junior Software Engineer.</p>
+      <p className="about-intro">Hello! I'm Elsie, an Associate Engineer.</p>
       <div className="about-info">
         <div className="about-pic">
           <img src={profileImage} alt="logo" className="profile-image"></img>
         </div>
         <div className="about-text">
           <p>Studying modern languages at university sparked my interest in the complex ways we communicate – and the role the digital world plays in that. Soon after I left university, I completed an introductory coding course with Code First: Girls to further explore the links between tech and languages.</p>
-          <p>A year later, and still excited by the challenge of coding, I enrolled in General Assembly’s Software Engineering Immersive course to build on my passion for the industry and opportunities beyond the course. I am now eager to work in a creative and collaborative environment, where I will be encouraged to stretch my abilities, as well as contribute my love for learning modern technologies and languages.</p>
+          <p>A year later, and still excited by the challenge of coding, I enrolled in General Assembly’s Software Engineering Immersive course to build on my passion for the industry and opportunities beyond the course. After finishing the course, I had the opportunity to work as a teaching assistant for both Code First Girls and General Assembly. I am now working at Spotify, as an Associate Engineer.</p>
         </div>
       </div>
       {/* <h1 className="interests-header">my interests.</h1> */}

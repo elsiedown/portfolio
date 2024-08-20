@@ -20,10 +20,6 @@ function Contact() {
           {/* <li><a href="https://www.linkedin.com/in/elsiedown/">linkedin/elsiedown</a></li> */}
         </div>
       </ul>
-      <footer className="footer">
-        <p>Made by Elsie Down</p>
-        <p>&copy; 2021</p>
-      </footer>
     </div>
 
   )

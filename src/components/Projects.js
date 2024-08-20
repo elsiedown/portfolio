@@ -12,7 +12,7 @@ function Projects() {
   return (
     <div className="project-section" id="projects">
       <h1>projects.</h1>
-      <h2> - previous -</h2>
+      <h2> - general assembly -</h2>
       <div className="project-divs">
         <div className="project-div">
           <div className="project-div-inner">
@@ -127,11 +127,11 @@ function Projects() {
         </div>
 
       </div>
-      <h2> - current -</h2>
+      <h2> - personal -</h2>
       <div className="project-div">
         <div className="project-div-inner">
           <div className="project-div-front">
-            <img src={marina} alt="littlemermaid-pic" classname="project-div-image"></img>
+            <img src={marina} alt="marina-pic" classname="project-div-image"></img>
 
           </div>
 
@@ -143,7 +143,7 @@ function Projects() {
                 <a href="https://elsiedown.github.io/SEI-project-1/"><FontAwesomeIcon icon={faLink} className="fa-icon" /></a>
                 <a href="https://github.com/elsiedown/SEI-project-1"><i class="devicon-github-original"></i></a>
               </div> */}
-            <p className="project-description">I am currently building a website for a life-coach. I have made the site using React.js, JavaScript, HTML and CSS. I am currently working on embedding her business instagram account, using the Insta API through the Facebook for Developers Documentation. It is still in the development stage but I hope to have it finished soon.</p>
+            <p className="project-description">I built a website for a life-coach. I made the site using React.js, JavaScript, HTML and CSS. I embedded her business instagram account, using the Insta API through the Facebook for Developers Documentation.</p>
             <div className="project-tech-icons">
               <div className="icon-item"><i class="devicon-react-original"></i></div>
               <div className="icon-item"><i class="devicon-javascript-plain"></i></div>
@@ -157,6 +157,7 @@ function Projects() {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
